@@ -10,7 +10,9 @@ module.exports = function (text) {
     this.cacheable();
   }
   var keys = [...new Set(parsed.data.map(d => Object.keys(d)).flat())];
-  var valuelist = parsed.data.map(d => keys.map(k => d[k]));
+  var valuelist = parsed.data.map(d => keys.map(k => d[k])).filter(d =>
+    d.filter(d2 => d2!==null && d2!==undefined && d2!=="").length>0);
+  /* if all values are null or undefined, assume bug row */
 
   return `var ks = ${JSON.stringify(keys)};
           var vs = ${JSON.stringify(valuelist)}
