@@ -1,7 +1,7 @@
 {
-  "name": "csv-loader",
+  "name": "csv-loader-small",
   "version": "3.0.2",
-  "description": "A webpack module to intelligently load csv files.",
+  "description": "A webpack module to intelligently load csv files. Forked from csv-loader",
   "scripts": {
     "test": "mocha"
   },
@@ -19,18 +19,16 @@
     "tsv",
     "dsv"
   ],
-  "homepage": "https://github.com/theplatapi/csv-loader",
+  "homepage": "https://github.com/fin/csv-loader-small",
   "author": {
-    "name": "scedast",
-    "email": "contact@scedast.com",
-    "web": "www.scedast.com"
+    "name": "fin",
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/theplatapi/csv-loader.git"
+    "url": "https://github.com/fin/csv-loader-small.git"
   },
   "bugs": {
-    "url": "https://github.com/theplatapi/csv-loader/issues"
+    "url": "https://github.com/fin/csv-loader-small/issues"
   },
   "license": {
     "type": "MIT"

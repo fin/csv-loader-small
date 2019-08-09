@@ -1,3 +1,7 @@
+# Fork of [csv-loader](https://github.com/theplatapi/csv-loader)
+
+Reduces file size for huge CSVs; forked at 5a245e1d50e4f27fa80e6fbdccc8fa2cd73f180d
+
 # Webpack csv loader
 
 [![NPM](https://img.shields.io/npm/v/csv-loader.svg)](https://npmjs.com/package/csv-loader)
