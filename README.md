@@ -2,29 +2,10 @@
 
 Reduces file size for huge CSVs; forked at 5a245e1d50e4f27fa80e6fbdccc8fa2cd73f180d
 
-# Webpack csv loader
-
-[![NPM](https://img.shields.io/npm/v/csv-loader.svg)](https://npmjs.com/package/csv-loader)
-[![NPM](https://img.shields.io/npm/dw/csv-loader.svg?maxAge=2592000)](https://npmjs.com/package/csv-loader)
-[![Build Status](https://travis-ci.org/theplatapi/csv-loader.svg?branch=master)](https://travis-ci.org/theplatapi/csv-loader)
-
 
 ## Purpose
 This CSV loader automatically converts data types, making it easy to import and start using data.
 
-## Installation
-
-Install with yarn:
-
-```
-yarn add -D csv-loader
-```
-
-Install with npm:
-
-```
-npm install --save-dev csv-loader
-```
 
 ## Usage
 
@@ -66,3 +47,4 @@ loader will automatically figure out which deliminator to use by default. The de
 
 * Inspired by [dsv-loader](https://github.com/wbkd/dsv-loader)
 * CSV parsing done with [Papa Parse](http://papaparse.com/)
+* Original package: [csv-loader](https://github.com/theplatapi/csv-loader)
